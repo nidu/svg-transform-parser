@@ -1,0 +1,30 @@
+{
+  "name": "svg-transform-parser",
+  "version": "0.0.1",
+  "description": "A small library for parsing SVG transform attribute",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "compile": "pegjs parse-svg-transform.pegjs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nidu/svg-transform-parser.git"
+  },
+  "keywords": [
+    "svg",
+    "transform",
+    "parser"
+  ],
+  "author": "Nikolay Durygin <kallyamb@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nidu/svg-transform-parser/issues"
+  },
+  "homepage": "https://github.com/nidu/svg-transform-parser",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
+    "pegjs": "^0.8.0"
+  }
+}
